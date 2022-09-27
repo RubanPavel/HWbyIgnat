@@ -1,3 +1,54 @@
-.message {
+.messageWrapper {
 
+    display: flex;
+    border: 1px solid black;
+    width: 250px;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px 5px 5px 45px;
+}
+
+.avatarImg {
+
+}
+
+.avatarImg img {
+    border: 1px solid red;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.messageBody {
+    border: 1px solid black;
+    display: flex;
+    min-width: 180px;
+
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+
+.messageName {
+    width: 150px;
+    color: orange;
+}
+
+.messageInfo {
+
+    padding-left: 15px;
+}
+
+.timeStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.timeStyle div {
+    font-size: 15px;
+    padding-right: 3px;
+    color: rgba(0, 0, 0, 0.4);
 }
